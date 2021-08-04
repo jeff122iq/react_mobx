@@ -7,6 +7,7 @@ import Container from "../components/Container";
 import PageContainer from "../components/PageContainer";
 import {observer} from "mobx-react";
 import styled from "styled-components";
+import Loader from "../components/Loader";
 
 interface IBackground {
     readonly background: string
@@ -40,6 +41,8 @@ const CurrentGame = styled.div`
 `
 
 const TextContainer = styled.div`
+  width: 100%;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   margin: 0 10px;
@@ -57,6 +60,8 @@ export default observer(function Game() {
             <PageContainer>
                 <Container>
                     <CurrentGameContainer>
+                        {Games.isLoading ? <Loader/> :
+                            <>
                         {Games.currentGame.map(item => {
                             return (
                                 <CurrentGame key={item.id}>
@@ -64,10 +69,11 @@ export default observer(function Game() {
                                     <TextContainer>
                                         <h1>{item.gameName}</h1>
                                         <h3>{item.gameYear}</h3>
+                                        <h3>{item.gameStory}</h3>
                                     </TextContainer>
                                 </CurrentGame>
                             )
-                        })}
+                        })}</>}
                     </CurrentGameContainer>
                 </Container>
             </PageContainer>
