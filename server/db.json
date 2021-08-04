@@ -1,0 +1,43 @@
+{
+  "popular-games": [
+    {
+      "id": 1,
+      "gameName": "Resident Evil Village",
+      "gameYear": 2021,
+      "gamePicture": "https://upload.wikimedia.org/wikipedia/ru/2/24/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Resident_Evil_Village.jpg",
+      "gameStory": "Действие игры разворачивается спустя несколько лет после событий Resident Evil 7. Итан Уинтерс, главный герой прошлой игры, вместе со своей женой Мией вернулся к обычной жизни, пытаясь забыть произошедшее в доме семьи Бэйкеров. Однако из-за Криса Редфилда он оказывается в таинственной заснеженной деревне на территории Румынии, в Трансильвании, где происходят события игры[1][2]. Местностью правят четыре демонических антагониста: в замке — вампир Альсина Димитреску с тремя дочерями, на фабрике находится Карл Гейзенберг, в озере обитает водяной Сальваторе Моро, в особняке живёт Донна Беневиенто с куклой Энджи. Все они подчиняются божеству — Матери Миранде, которой поклоняются и жители деревни"
+    },
+    {
+      "id": 2,
+      "gameName": "Far Cry 6",
+      "gameYear": 2021,
+      "gamePicture": "https://i0.wp.com/itc.ua/wp-content/uploads/2020/07/far-cry-6-art.jpg"
+    },
+    {
+      "id": 3,
+      "gameName": "Dying Light 2: Stay Human",
+      "gameYear": 2021,
+      "gamePicture": "https://ru.pickgamer.com/media/4002/Dying-Light-2-285x380.jpg"
+    },
+    {
+      "id": 4,
+      "gameName": "Hitman 3",
+      "gameYear": 2021,
+      "gamePicture": "https://upload.wikimedia.org/wikipedia/ru/4/4b/Hitman_3_Packart.jpg"
+    },
+    {
+      "id": 5,
+      "gameName": "Little Nightmares II",
+      "gameYear": 2021,
+      "gamePicture": "https://image.api.playstation.com/vulcan/ap/rnd/202011/1819/m7gCTrMRQBTPHi87Mi3leVVY.jpg"
+    }
+  ],
+  "actions": [
+    {
+      "id": 1,
+      "gameName": "Dark souls",
+      "gameYear": 2011,
+      "gamePicture": "https://static.wikia.nocookie.net/darksouls/images/0/05/Dark_Souls_Cover_Art.jpeg/revision/latest?cb=20160826060618&path-prefix=ru"
+    }
+  ]
+}
